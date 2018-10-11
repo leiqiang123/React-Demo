@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-
+import './index.less'
 
 class Home extends Component {
     constructor(props) {
@@ -8,11 +8,11 @@ class Home extends Component {
     }
     render() { 
         return ( 
-            <div>
-                <h1>这是首页</h1>
+            <div className='home'>
+                好好学习天天向上
             </div>
         )
     }
 }
- 
+
 export default Home;

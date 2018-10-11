@@ -3,7 +3,6 @@ import {Link} from 'react-router-dom'
 import { Menu } from 'antd';
 import './index.less'
 
-const SubMenu = Menu.SubMenu
 const MenuItem = Menu.Item
 
 
