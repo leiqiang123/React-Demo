@@ -7,10 +7,7 @@ import './index.less'
 
 
 class Admin extends Component {
-    constructor(props) {
-        super(props);
-        this.state = {  }
-    }
+    
     render() { 
         return ( 
             <div className='admin'>
@@ -28,8 +25,6 @@ class Admin extends Component {
                         <Footer></Footer>
                     </Col>
                 </Row>
-                
-                
             </div>
         )
     }

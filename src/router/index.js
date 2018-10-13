@@ -24,7 +24,7 @@ class Router extends Component {
                                 <Route path='/admin/pie' component={Pie}></Route>
                                 <Route component={NotMatch}></Route>
                             </Switch>
-                        </Admin>
+                        </Admin> 
                     }></Route>
                     <Route path='/common/order/detail/:id' component={OrderDetail}></Route>
                     <Route component={NotMatch}></Route>
